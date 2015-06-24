@@ -1,0 +1,21 @@
+body, html
+{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-container 
+{
+	background: white;
+	width: 65%;
+	height: 95%;
+	margin: 0 auto;
+}
+
+.navbar h1, h3
+{
+	text-align: center;
+	font-family: 'Dosis', sans-serif;
+}
