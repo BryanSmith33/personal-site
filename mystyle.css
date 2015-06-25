@@ -257,12 +257,4 @@ h3
 	}
 }
 
-@media (max-width: 895px) {
-	#about-container
-	{
-		height: 87%;
-		width: 100%;
-		background: #fff;
-	}
-}
 
