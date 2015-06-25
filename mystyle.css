@@ -22,7 +22,7 @@ body, html
 {
 	width: 100%;
 	height: 100%;
-	background-image: url('public/images/brickwall.jpg');
+	background-image: url('../images/brickwall.jpg');
 	-webkit-background-size: cover;
   	-moz-background-size: cover;
   	-o-background-size: cover;
@@ -52,7 +52,7 @@ body, html
 
 #about-container
 {
-	height: 60%;
+	height: 84%;
 	width: 100%;
 	background: #fff;
 }
@@ -91,7 +91,7 @@ body, html
 
 #resume-container
 {
-	height: 175%;
+	height: 220%;
 	width: 100%;
 	background: #fff;
 }
@@ -134,9 +134,9 @@ body, html
 
 #contact-container
 {
-	height: 48%;
+	height: 65%;
 	width: 100%;
-	background-image: url('public/images/brickwall.jpg');
+	background-image: url('../images/brickwall.jpg');
 	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -190,6 +190,73 @@ h3
 }
 
 
+@media (max-width: 1200px) {
+	.resume p
+	{
+		font-size: 20px;
+		text-align: center;
+	}
 
+	.resume h1
+	{
+		text-decoration: underline;
+		font-size: 25px;
+	}
+
+	.resume p1
+	{
+		font-size: 14px;
+	}
+
+	.resume p2
+	{
+		font-size: 18px;
+	}
+
+	.resume p3
+	{
+		font-size: 16px;
+	}
+
+	#about-container
+	{
+		height: 50%;
+		width: 100%;
+		background: #fff;
+	}
+
+	.about p1
+	{
+		font-size: 18px;
+	}
+
+	.contact h4
+	{
+		text-align: center;
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o
+	{
+	    background-color: #d23641;
+	    color: rgba(255, 255, 255, 0.8);
+	    font-size: 2.90em;
+	    line-height: 1.5em;
+	    height: 1.5em;
+	    width: 1.5em;
+	    text-align:center;
+	    margin: 8px;
+	}
+}
+
+@media (max-width: 895px) {
+	#about-container
+	{
+		height: 87%;
+		width: 100%;
+		background: #fff;
+	}
+}
 
 
