@@ -205,6 +205,17 @@ h3
 		width: 100%;
 		background: #fff;
 	}
+	
+	#contact-container
+	{
+		height: 48%;
+		width: 100%;
+		background-image: url('public/images/brickwall.jpg');
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
     }
 
     /* Extra Small Devices, Phones */ 
