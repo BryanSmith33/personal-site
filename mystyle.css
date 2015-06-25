@@ -268,13 +268,13 @@ h3
     @media only screen and (max-width : 320px) {
       	.header h1
 	{
-		font-size: 95px;
+		font-size: 65px;
 		margin-top: 14%;
 	}
 	
 	.header h2
 	{
-		font-size: 45px;
+		font-size: 40px;
 	}
 	
 	#about-container
@@ -286,7 +286,7 @@ h3
 	
 	#resume-container
 	{
-		height: 310%;
+		height: 340%;
 		width: 100%;
 		background: #fff;
 	}  
