@@ -91,7 +91,7 @@ body, html
 
 #resume-container
 {
-	height: 220%;
+	height: 223%;
 	width: 100%;
 	background: #fff;
 }
@@ -194,14 +194,14 @@ h3
     @media only screen and (max-width : 1200px) {
 	#about-container
 	{
-		height: 50%;
+		height: 10%;
 		width: 100%;
 		background: #fff;
 	}
 	
 	#resume-container
 	{
-		height: 125%;
+		height: 105%;
 		width: 100%;
 		background: #fff;
 	}
