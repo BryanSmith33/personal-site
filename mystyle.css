@@ -258,7 +258,7 @@ h3
 	}
 }
 
-@media (max-width: 568px) {
+@media (mix-width: 568px) {
 	#header-container
 	{
 		width: 100%;
