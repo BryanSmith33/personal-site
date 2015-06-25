@@ -190,8 +190,7 @@ h3
 }
 
 
-@media (min-device-width: 414px) 
-  and (max-device-width: 736px) {
+@media (max-device-width: 736px) {
 	
 	#resume-container
 	{
@@ -259,8 +258,7 @@ h3
 	}
 }
 
-@mediam(min-device-width: 320px) 
-  and (max-device-width: 568px) {
+@mediam (max-device-width: 568px) {
 	#header-container
 	{
 		width: 100%;
