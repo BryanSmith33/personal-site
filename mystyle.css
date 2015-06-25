@@ -190,73 +190,73 @@ h3
 }
 
 
-@media (max-width: 1200px) (min-width: 601px) {
+/*@media (max-width: 1200px) (min-width: 601px) {*/
 	
-	#resume-container
-	{
-		height: 250%;
-		width: 100%;
-		background: #fff;
-	}
+/*	#resume-container*/
+/*	{*/
+/*		height: 250%;*/
+/*		width: 100%;*/
+/*		background: #fff;*/
+/*	}*/
 
-	.resume p
-	{
-		font-size: 20px;
-		text-align: center;
-	}
+/*	.resume p*/
+/*	{*/
+/*		font-size: 20px;*/
+/*		text-align: center;*/
+/*	}*/
 
-	.resume h1
-	{
-		text-decoration: underline;
-		font-size: 25px;
-	}
+/*	.resume h1*/
+/*	{*/
+/*		text-decoration: underline;*/
+/*		font-size: 25px;*/
+/*	}*/
 
-	.resume p1
-	{
-		font-size: 14px;
-	}
+/*	.resume p1*/
+/*	{*/
+/*		font-size: 14px;*/
+/*	}*/
 
-	.resume p2
-	{
-		font-size: 18px;
-	}
+/*	.resume p2*/
+/*	{*/
+/*		font-size: 18px;*/
+/*	}*/
 
-	.resume p3
-	{
-		font-size: 16px;
-	}
+/*	.resume p3*/
+/*	{*/
+/*		font-size: 16px;*/
+/*	}*/
 
-	#about-container
-	{
-		height: 105%;
-		width: 100%;
-		background: #fff;
-	}
+/*	#about-container*/
+/*	{*/
+/*		height: 105%;*/
+/*		width: 100%;*/
+/*		background: #fff;*/
+/*	}*/
 
-	.about p1
-	{
-		font-size: 18px;
-	}
+/*	.about p1*/
+/*	{*/
+/*		font-size: 18px;*/
+/*	}*/
 
-	.contact h4
-	{
-		text-align: center;
-		font-size: 18px;
-		margin-top: 10px;
-	}
+/*	.contact h4*/
+/*	{*/
+/*		text-align: center;*/
+/*		font-size: 18px;*/
+/*		margin-top: 10px;*/
+/*	}*/
 
-	.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o
-	{
-	    background-color: #d23641;
-	    color: rgba(255, 255, 255, 0.8);
-	    font-size: 2.90em;
-	    line-height: 1.5em;
-	    height: 1.5em;
-	    width: 1.5em;
-	    text-align:center;
-	    margin: 8px;
-	}
-}
+/*	.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o*/
+/*	{*/
+/*	    background-color: #d23641;*/
+/*	    color: rgba(255, 255, 255, 0.8);*/
+/*	    font-size: 2.90em;*/
+/*	    line-height: 1.5em;*/
+/*	    height: 1.5em;*/
+/*	    width: 1.5em;*/
+/*	    text-align:center;*/
+/*	    margin: 8px;*/
+/*	}*/
+/*}*/
 
 @media (max-width: 600px) {
 	#header-container
