@@ -5,35 +5,138 @@
 	<title>BRYAN SMITH</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
 
-	<!---FONT-->
-	<link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
-
-	<!---CSS-->
-	<link rel="stylesheet" type="text/css" href="styles/mystyle.css">
-
 	<!---Scripts-->
-	 <script src='http://code.jquery.com/jquery-1.11.3.js'></script>
-  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js'></script>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js'></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!---FONT-->
+  <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
+
+
+  <!---CSS-->
+  <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
 
 </head>
 <body>
-	<style>
-    body 
-    {
-        background: url('images/brickwall.jpg') fixed;
-        background-size: cover;
-        padding: 0;
-        margin: 0;
-    }
-  </style>
-  <div class='main-container'>
-  	<div class='navbar'>
-  		<h1>BRYAN SMITH</h1>
-  		<h3>Web Developer</h3>
-  	</div>
-  	
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">BRYAN SMITH</a>
+      </div>
+      <div class="collapse navbar-collapse pull-right" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="#header-container">Home</a></li>
+          <li><a href="#about-container">About Me</a></li>
+          <li><a href="#portfolio-container">Portfolio</a></li>
+          <li><a href="#resume-container">Resume</a></li>
+          <li><a href="#contact-container">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="header-container">
+      <div class="header">
+        <h1>BRYAN SMITH</h1>
+        <h2>Web Developer</h2>
+      </div>
+  </div>
+  <div id="about-container">
+    <div class="about">
+      <h3>About Me</h3>
+      </br>
+      </br>
+      <p1>Hello! My Name is Bryan George Smith, but my friends call me Beeg (Pronounced like Beej). I specialize in making people laugh and making my family as happy as I can. I enjoy being outdoors and anything on a board. I love to design and build websites ranging from small business and personal blogs to full-stack applications that require much detail. Contact me with any questions or if you would like more to know more about freelance work or job opportunities. Take a look around and make yourself at home.</p1>
+    </div>
+  </div>
+  <div id="portfolio-container">
+    <div class="portfolio">
+      <h3>Portfolio</h3>
+    </div>
+  </div>
+  <div id="resume-container">
+    <div class="resume">
+      <h3>Resume</h3>
+        <p>bryan.gsmith33@gmail.com | (801)635-5599 | github.com/bryansmith33</p>
+
+    <h1>Projects</h1>
+    <p1>Created a Chrome extension that helped users organize their day. The project used the MEAN stack and made several API calls to display weather and Google maps data. I also created a small to-do list using Angular that helped the user stay on top of their tasks.
+    </br>
+    </br>
+    As a group, we created a queue system for Fashionphile, a high-end handbag consignment store. I was responsible for the backend, which used Node, Angular and MongoDB. The front-end of the project included Angular, along with HTML, CSS and Bootstrap for styling, which I also contributed to.</p1>
+
+    <h1>Experience</h1>
+    <p2>1-800 Contacts</p2>
+    </br>
+    <p1>(801) 924-9800</p1>
+    </br>
+    <p1>July 2012 – March 2015</p1>
+    </br>
+    <p3>Customer Service Representative</p3>
+    </br>
+    <p1>Helped customers place order for their contact lenses.
+    Made customers aware of benefits from ordering from Contacts.
+    Coached agents on my team to help improve their efficiency.</p1> 
+    </br>
+    <p3>Courier</p3>
+    </br>
+    <p1>Picked up and delivered packages for company. 
+    Reconciled several company credit cards.
+    Ensured that company vehicle is in working order.</p1>
+    </br>
+    </br>
+    <p2>Fox 13 KSTU</p2>
+    </br>
+    <p1>(801) 536-1313</p1>
+    </br>
+    <p1>February 2014-September 2014</p1>
+    </br>
+    <p3>Studio Tech</p3>
+    </br>
+    <p1>Readied set for the ‘Good Day Utah’ morning news and the weekend edition. 
+    Directed anchors and ran teleprompter.</p1>
+    </br>
+    </br>
+    <h1>Education</h1> 
+    <p2>DevMountain</p2>
+    </br>
+    <p1>March 2015 – June 2015</p1>
+    </br>
+    <p1>Studied web development in a full-time immersive coding boot camp. 
+    Experience building website templates from scratch using JavaScript and several of it's frameworks.</p1>
+    </br>
+    </br>
+    <p2>Salt Lake Community College</p2>
+    </br>
+    <p1>2010 - 2013</p1>
+    </br>
+    <p1>Studied Communications; specifically Broadcast Journalism. Also studied general education and business management/finance.</p1> 
+    </div>
+  </div>
+  <div id="contact-container">
+    <div class="contact">
+      <h3>Contact</h3>
+      </br>
+      <h4>Email: bryan.gsmith33@gmail.com | Phone: (801)635-5599</h4>
+      </br>
+      <div class="contact-icons">
+        <div>
+          <span>
+            <a class="fa fa-github" href="https://github.com/BryanSmith33" target="_blank"></a>
+            <a class="fa fa-twitter" href="https://twitter.com/BGSIII" target="_blank"></a>
+            <a class="fa fa-linkedin" href="https://www.linkedin.com/pub/bryan-smith/8b/a26/424" target="_blank"></a>
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 </html>
