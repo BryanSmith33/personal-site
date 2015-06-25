@@ -258,7 +258,7 @@ h3
 	}
 }
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
 	#header-container
 	{
 		width: 100%;
