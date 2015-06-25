@@ -190,7 +190,14 @@ h3
 }
 
 
-@media (max-width: 1200px) {
+media (max-width: 1200px) {
+	#resume-container
+	{
+		height: 240%;
+		width: 100%;
+		background: #fff;
+	}
+
 	.resume p
 	{
 		font-size: 20px;
@@ -220,7 +227,7 @@ h3
 
 	#about-container
 	{
-		height: 50%;
+		height: 55%;
 		width: 100%;
 		background: #fff;
 	}
@@ -258,5 +265,4 @@ h3
 		background: #fff;
 	}
 }
-
 
