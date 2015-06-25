@@ -240,7 +240,7 @@ h3
 	}
 }
 
-@media (max-width: 1200px) (min-width: 601px) {
+@media (max-width: 1200px) and (min-width: 601px) {
 	
 	#resume-container
 	{
