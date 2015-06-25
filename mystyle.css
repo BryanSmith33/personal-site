@@ -190,7 +190,7 @@ h3
 }
 
 
-@media (max-width: 1200px) {
+@media (max-width: 1200px) and (min-width: 601px) {
 	
 	#resume-container
 	{
@@ -258,7 +258,7 @@ h3
 	}
 }
 
-@media (max-width: 600px) {
+@media (max-width: 600px) and (min-width: 300px) {
 	#header-container
 	{
 		width: 100%;
