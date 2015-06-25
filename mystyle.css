@@ -190,11 +190,22 @@ h3
 }
 
 
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-
-}
-
+    /* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+	#about-container
+	{
+		height: 50%;
+		width: 100%;
+		background: #fff;
+	}
+	
+	#resume-container
+	{
+		height: 125%;
+		width: 100%;
+		background: #fff;
+	}
+    }
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
