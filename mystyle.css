@@ -201,29 +201,29 @@ h3
 
 	.resume p
 	{
-		font-size: 25px;
+		font-size: 20px;
 		text-align: center;
 	}
 
 	.resume h1
 	{
 		text-decoration: underline;
-		font-size: 30px;
+		font-size: 25px;
 	}
 
 	.resume p1
 	{
-		font-size: 20px;
+		font-size: 14px;
 	}
 
 	.resume p2
 	{
-		font-size: 24px;
+		font-size: 18px;
 	}
 
 	.resume p3
 	{
-		font-size: 21px;
+		font-size: 16px;
 	}
 
 	#about-container
@@ -235,7 +235,7 @@ h3
 
 	.about p1
 	{
-		font-size: 27px;
+		font-size: 18px;
 	}
 
 	.contact h4
@@ -307,4 +307,3 @@ h3
 	    margin: 8px;
 	}
 }
-
