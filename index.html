@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html ng-app='bryansmith'>
+<html>
 <head>
 	<meta charset='utf-8'>
 	<title>BRYAN SMITH</title>
 	<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
 
 	<!---Scripts-->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js'></script>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="restive.min.js"></script>
 
     <!---FONT-->
   <link href='http://fonts.googleapis.com/css?family=Dosis' rel='stylesheet' type='text/css'>
 
 
   <!---CSS-->
-  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <link rel="stylesheet" type="text/css" href="styles/mystyle.css">
+
+  <!--Initialize Restive.JS-->
+<script type="text/javascript">
+      $(document).ready(function () {
+            $('body').restive({        
+              breakpoints: ['240', '320', '480', '640', '960', '1024', '1280'],
+              classes: ['css-240', 'css-320', 'css-480', 'css-640', 'css-960', 'css-1024', 'css-1280']});
+      });
+</script>
 
 </head>
 <body>
@@ -68,8 +76,12 @@
         <p>bryan.gsmith33@gmail.com | (801)635-5599 | github.com/bryansmith33</p>
 
     <h1>Projects</h1>
+    <p2>Planned</p2>
+    </br>
     <p1>Created a Chrome extension that helped users organize their day. The project used the MEAN stack and made several API calls to display weather and Google maps data. I also created a small to-do list using Angular that helped the user stay on top of their tasks.
     </br>
+    </br>
+    <p2>Fashionphile Queue</p2>
     </br>
     As a group, we created a queue system for Fashionphile, a high-end handbag consignment store. I was responsible for the backend, which used Node, Angular and MongoDB. The front-end of the project included Angular, along with HTML, CSS and Bootstrap for styling, which I also contributed to.</p1>
 
