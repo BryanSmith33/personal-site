@@ -190,8 +190,8 @@ h3
 }
 
 
-@media (max-width: 1200px) {
-	
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
 	#resume-container
 	{
 		height: 250%;
@@ -257,4 +257,15 @@ h3
 	    margin: 8px;
 	}
 }
+
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (max-width : 480px) {
+
+    }
+
+    /* Custom, iPhone Retina */ 
+    @media only screen and (max-width : 320px) {
+        
+    }
 
