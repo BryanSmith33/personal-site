@@ -194,7 +194,7 @@ h3
     @media only screen and (max-width : 768px) {
 	#resume-container
 	{
-		height: 250%;
+		height: 253%;
 		width: 100%;
 		background: #fff;
 	}
@@ -261,7 +261,30 @@ h3
 
     /* Extra Small Devices, Phones */ 
     @media only screen and (max-width : 480px) {
-
+	.header h1
+	{
+		font-size: 95px;
+		margin-top: 14%;
+	}
+	
+	.header h2
+	{
+		font-size: 45px;
+	}
+	
+	#about-container
+	{
+		height: 120%;
+		width: 100%;
+		background: #fff;
+	}
+	
+	#resume-container
+	{
+		height: 265%;
+		width: 100%;
+		background: #fff;
+	}
     }
 
     /* Custom, iPhone Retina */ 
