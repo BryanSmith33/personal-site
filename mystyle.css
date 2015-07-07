@@ -91,11 +91,9 @@ body, html
 	margin: 0 auto;
 }
 
-.item
+.carousel-inner > .item > img 
 {
-	display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
 
 #resume-container
