@@ -77,10 +77,9 @@ body, html
 #portfolio-container
 {
 	width: 100%;
-	height: 65%;
 	background: #d23641;
 	overflow:hidden;
-	margin-bottom: 65px;
+	padding-bottom: 65px;
 }
 
 .portfolio
@@ -96,7 +95,7 @@ body, html
 {
 	margin: 0 auto;
     height: 452px;
-    width: 865px;
+    max-width: 65%;
 }
 
 .carousel-inner > .item > video 
@@ -211,6 +210,7 @@ h3
 {
 	width: 100%;
 	background: #fff;
+	color: #000;
 }
 
 #resume-container
@@ -233,6 +233,11 @@ h3
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (max-width : 480px) {
+#portfolio-container
+{
+	display: none;
+}
+
 #resume-container
 {
 	width: 100%;
@@ -270,6 +275,7 @@ h3
 {
 	width: 100%;
 	background: #fff;
+	color: #000;
 }
 
 .about p1
@@ -299,7 +305,7 @@ h3
 
 /* Custom, iPhone Retina */ 
 @media only screen and (max-width : 320px) {
-  	.header h1
+.header h1
 {
 	font-size: 65px;
 	margin-top: 14%;
@@ -310,10 +316,16 @@ h3
 	font-size: 40px;
 }
 
+#portfolio-container
+{
+	display: none;
+}
+
 #about-container
 {
 	width: 100%;
 	background: #fff;
+	color: #000;
 }
 
 #resume-container
