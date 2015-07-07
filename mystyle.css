@@ -95,8 +95,8 @@ body, html
 .carousel-inner > .item > img 
 {
 	margin: 0 auto;
-    width: 75%;
-    height: 55%;
+    height: 452px;
+    width: 865px;
 }
 
 .carousel-inner > .item > video 
