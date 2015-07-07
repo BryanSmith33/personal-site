@@ -52,9 +52,10 @@ body, html
 
 #about-container
 {
-	height: 84%;
 	width: 100%;
 	background: #fff;
+	overflow: hidden;
+	margin-bottom: 65px;
 }
 
 .about
@@ -75,9 +76,10 @@ body, html
 
 #portfolio-container
 {
-	height: 75%;
 	width: 100%;
 	background: #d23641;
+	overflow:hidden;
+	margin-bottom: 65px;
 }
 
 .portfolio
@@ -91,9 +93,10 @@ body, html
 
 #resume-container
 {
-	height: 223%;
 	width: 100%;
 	background: #fff;
+	overflow:hidden;
+	margin-bottom: 65px;
 }
 
 .resume
@@ -134,13 +137,13 @@ body, html
 
 #contact-container
 {
-	height: 65%;
 	width: 100%;
 	background-image: url('public/images/brickwall.jpg');
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	overflow:hidden;
 }
 
 .contact
@@ -189,19 +192,16 @@ h3
 	margin-top: -45px;
 }
 
-
-    /* Large Devices, Wide Screens */
+   /* Large Devices, Wide Screens */
     @media only screen and (min-width : 1920px) {
 	#about-container
 	{
-		height: 50%;
 		width: 100%;
 		background: #fff;
 	}
 	
 	#resume-container
 	{
-		height: 145%;
 		width: 100%;
 		background: #fff;
 	}
@@ -222,7 +222,6 @@ h3
     @media only screen and (max-width : 480px) {
 	#resume-container
 	{
-		height: 255%;
 		width: 100%;
 		background: #fff;
 	}
@@ -256,7 +255,6 @@ h3
 
 	#about-container
 	{
-		height: 105%;
 		width: 100%;
 		background: #fff;
 	}
@@ -301,14 +299,12 @@ h3
 	
 	#about-container
 	{
-		height: 145%;
 		width: 100%;
 		background: #fff;
 	}
 	
 	#resume-container
 	{
-		height: 340%;
 		width: 100%;
 		background: #fff;
 	}
@@ -325,4 +321,3 @@ h3
 	    margin: 8px;
 	}
     }
-
