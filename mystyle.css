@@ -96,6 +96,11 @@ body, html
     margin: 0 auto;
 }
 
+.carousel-inner > .item > video 
+{
+    margin: 0 auto;
+}
+
 #resume-container
 {
 	width: 100%;
