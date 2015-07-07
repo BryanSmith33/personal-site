@@ -91,6 +91,13 @@ body, html
 	margin: 0 auto;
 }
 
+.item
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #resume-container
 {
 	width: 100%;
