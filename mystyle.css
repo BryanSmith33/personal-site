@@ -1,348 +1,205 @@
-body, html
-{
-    padding: 0;
-    margin: 0;
+html,body {
+	height: 100%;
+}
+
+p {
+	font-size: 20px;
+	font-weight: 100;
+}
+
+h1 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 300;
+}
+
+h3 {
+	font-size:24px;
+	font-weight: 300;
+	margin: 5px 0;
+}
+
+#home {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+}
+
+svg {
+	width: 100%;
+	height: inherit;
+}
+
+text {
+	text-anchor: middle;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+#alpha {
+	fill: rgba(255, 255, 255, 0.80);
+	-webkit-animation:fadeIn ease-in 1; 
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+	-webkit-animation-fill-mode:forwards;
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+	-webkit-animation-duration:2.5s;
+	-moz-animation-duration:2.5s;
+	animation-duration:2.5s;
+}
+
+#name {
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 8em;
+	font-weight: 200;
+}
+
+#position {
+	letter-spacing: 8px;
+	font-size: 1.2em;
+	text-transform: uppercase;
+}
+
+#base {
+	fill: rgb(0, 0, 0);
+	mask: url(#mask);
+}
+
+section.hero {
+	background: url('images/patriarchHike.jpg') no-repeat top center;
+	background-size: cover;
+	position: relative;
+	width: 100%;
+	min-height: 100%;
+}
+
+.navbar {
+	min-height: 50px;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
+	border-bottom: 0;
+}
+
+.nav a {
+	font-size: 18px;
+	color: #000;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
+	color: #000;
+	font-weight: 200;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #000;
+}
+
+#about-container {
+	width: 100%;
+	background: #1f1f1f;
+	overflow: hidden;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.about {
+	width: 70%;
+	height: 100%;
+	color: #fff;
+	margin: 0 auto 25px;
+}
+
+#portfolio-container {
+	width: 100%;
+	background: #3d3d3d;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	padding: 1px 0px 25px;
+}
+
+.portfolio {
+	width: 85%;
+	height: 100%;
+	color: #c2c2c2;
+	margin: 0 auto;
+}
+
+.item > img {
+	margin: 0 auto;
     height: 100%;
     width: 100%;
 }
 
-.navbar
-{
-	font-family: 'Dosis', sans-serif;
-	min-height: 50px;
-	background-color: rgba(255, 255, 255, 0.8);
-}
-
-.nav a
-{
-	font-size: 18px;
-}
-
-#header-container
-{
-	width: 100%;
-	height: 100%;
-	background-image: url('images/brickwall.jpg');
-	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
-.header
-{
-	width: 70%;
-	height: 100%;
-	font-family: 'Dosis', sans-serif;
-	padding-top: 100px;
+.item > video {
 	margin: 0 auto;
-	text-align: center;
 }
 
-.header h1
-{
-	font-size: 105px;
-	margin-top: 14%;
-}
-
-.header h2
-{
-	font-size: 65px;
-}
-
-#about-container
-{
+#resume-container {
 	width: 100%;
 	background: #fff;
-	overflow: hidden;
-	margin-bottom: 65px;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	background-color: #c2c2c2;
+	padding-top: 1px;
 }
 
-.about
-{
+.resume {
 	width: 70%;
 	height: 100%;
-	font-family: 'Dosis', sans-serif;
-	color: #d23641;
-	padding-top: 100px;
-	margin: 0 auto;
+	margin: 0 auto 25px;
+	color: #3d3d3d;
 }
 
-.about p1
-{
-	font-size: 33px;
-}
+ p.center {
+    text-align: center;
+    margin: 0;
+ }
 
 
-#portfolio-container
-{
+#contact-container {
 	width: 100%;
-	background: #d23641;
+	background: #e0e0e0;
 	overflow:hidden;
-	padding-bottom: 65px;
+	word-wrap: normal;
 }
 
-.portfolio
-{
+.contact {
 	width: 70%;
 	height: 100%;
-	font-family: 'Dosis', sans-serif;
-	padding-top: 100px;
-	margin: 0 auto;
-}
-
-.carousel-inner > .item > img 
-{
-	margin: 0 auto;
-    height: 452px;
-    max-width: 65%;
-}
-
-.carousel-inner > .item > video 
-{
-	margin: 0 auto;
-}
-
-#resume-container
-{
-	width: 100%;
-	background: #fff;
-	overflow:hidden;
-	margin-bottom: 65px;
-}
-
-.resume
-{
-	width: 70%;
-	height: 100%;
-	font-family: 'Dosis', sans-serif;
-	padding-top: 100px;
-	margin: 0 auto;
-}
-
-.resume p
-{
-	font-size: 30px;
-	text-align: center;
-}
-
-.resume h1
-{
-	text-decoration: underline;
-}
-
-.resume p1
-{
-	font-size: 20px;
-}
-
-.resume p2
-{
-	font-size: 28px;
-}
-
-.resume p3
-{
-	font-size: 25px;
-}
-
-
-#contact-container
-{
-	width: 100%;
-	background-image: url('images/brickwall.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	overflow:hidden;
-}
-
-.contact
-{
-	width: 70%;
-	height: 100%;
-	font-family: 'Dosis', sans-serif;
-	color: #d23641;
-	padding-top: 100px;
-	margin: 0 auto;
-}
-
-.contact h4
-{
-	text-align: center;
-	font-size: 37px;
-	margin-top: 10px;
-}
-
-.contact-icons
-{
-	text-align: center;
-}
-
-.contact-icons a:hover
-{
-	color: black;
-}
-
-.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o
-{
-    background-color: #d23641;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 4.90em;
-    line-height: 1.5em;
-    height: 1.5em;
-    width: 1.5em;
-    text-align:center;
-    margin: 18px;
-}
-
-h3
-{
-	text-align: center;
-	font-size: 48px;
-	margin-top: -45px;
-}
-
-/* Large Devices, Wide Screens */
-@media only screen and (min-width : 1920px) {
-#about-container
-{
-	width: 100%;
-	background: #fff;
 	color: #000;
+	margin: 0 auto;
 }
 
-#resume-container
-{
-	width: 100%;
-	background: #fff;
-}
-
-#contact-container
-{
-	height: 48%;
-	width: 100%;
-	background-image: url('images/brickwall.jpg');
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-}
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-#portfolio-container
-{
-	display: none;
-}
-
-#resume-container
-{
-	width: 100%;
-	background: #fff;
-}
-
-.resume p
-{
-	font-size: 20px;
+.contact-icons {
 	text-align: center;
 }
 
-.resume h1
-{
-	text-decoration: underline;
-	font-size: 25px;
-}
 
-.resume p1
-{
-	font-size: 14px;
-}
-
-.resume p2
-{
-	font-size: 18px;
-}
-
-.resume p3
-{
-	font-size: 16px;
-}
-
-#about-container
-{
-	width: 100%;
-	background: #fff;
-	color: #000;
-}
-
-.about p1
-{
-	font-size: 18px;
-}
-
-.contact h4
-{
-	text-align: center;
-	font-size: 18px;
-	margin-top: 10px;
-}
-
-.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o
-{
-    background-color: #d23641;
+.fa {
     color: rgba(255, 255, 255, 0.8);
-    font-size: 2.90em;
-    line-height: 1.5em;
-    height: 1.5em;
-    width: 1.5em;
     text-align:center;
-    margin: 8px;
-}
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
-.header h1
-{
-	font-size: 65px;
-	margin-top: 14%;
+    margin: 10px 18px 25px;
+    font-size: 45px !important;
 }
 
-.header h2
-{
-	font-size: 40px;
+.fa:hover {
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.8);
 }
 
-#portfolio-container
-{
-	display: none;
-}
+@media screen and (max-width: 600px) {
+	button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
+		display: none !important;
+	}
 
-#about-container
-{
-	width: 100%;
-	background: #fff;
-	color: #000;
-}
-
-#resume-container
-{
-	width: 100%;
-	background: #fff;
-}
-
-.fa-github, .fa-twitter, .fa-linkedin, .fa-envelope-o
-{
-    background-color: #d23641;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 2.0em;
-    line-height: 1.5em;
-    height: 1.5em;
-    width: 1.5em;
-    text-align:center;
-    margin: 8px;
-}
+	#title {
+	font-size: 4em;
+	}	
 }
