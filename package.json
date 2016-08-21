@@ -1,0 +1,26 @@
+{
+  "name": "personal-site",
+  "version": "1.0.0",
+  "description": "personal site, yo",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BryanSmith33/personal-site.git"
+  },
+  "author": "Bryan Smith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BryanSmith33/personal-site/issues"
+  },
+  "homepage": "https://github.com/BryanSmith33/personal-site#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.3",
+    "jshint-stylish": "^2.2.1"
+  }
+}
