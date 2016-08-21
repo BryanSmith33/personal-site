@@ -5,15 +5,14 @@
   <title>Salt Lake City UI/UX Developer</title>
   <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" async></script>
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js" async></script>
   <script type="text/javascript" src="slick/slick.min.js"></script>
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="mystyle.css">
   <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'/>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-fixed-top">
@@ -24,15 +23,14 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>                        
         </button>
-        <a class="navbar-brand" href="#">BRYAN SMITH</a>
       </div>
-      <div class="collapse navbar-collapse pull-right" id="myNavbar">
+      <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav">
-          <li data-toggle="collapse" data-target="#myNavbar"><a href="#home">Home</a></li>
-          <li data-toggle="collapse" data-target="#myNavbar"><a href="#about-container">About Me</a></li>
-          <li data-toggle="collapse" data-target="#myNavbar"><a href="#portfolio-container">Portfolio</a></li>
-          <li data-toggle="collapse" data-target="#myNavbar"><a href="#resume-container">Resume</a></li>
-          <li data-toggle="collapse" data-target="#myNavbar"><a href="#contact-container">Contact</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a class="borderline" href="#home">Back to Top</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a class="borderline" href="#about-container">About Me</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a class="borderline" href="#portfolio-container">Portfolio</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a class="borderline" href="#resume-container">Resume</a></li>
+          <li data-toggle="collapse" data-target="#myNavbar"><a class="borderline" href="#contact-container">Contact</a></li>
         </ul>
       </div>
     </div>
@@ -43,7 +41,7 @@
      <mask id="mask" x="0" y="0" width="100%" height="100%" >
        <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
        <text id="name" x="50%" y="50%">Bryan Smith</text>
-       <text id="position" x="50%" y="60%">web developer</text>
+       <text id="position" x="50%" y="63%">web developer</text>
      </mask>
     </defs>
     <rect id="base" x="0" y="0" width="100%" height="100%"/>
@@ -123,8 +121,7 @@
       </div>
     </div>
   </div>
-
-    <script type="text/javascript">
+<!--     <script type="text/javascript">
     $(document).ready(function(){
       $('.portfolio-carousel').slick({
           dots: true,
@@ -133,6 +130,7 @@
           infinite: true
       });
     });
-  </script>
+  </script> -->
+  <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>

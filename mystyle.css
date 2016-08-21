@@ -1,9 +1,7 @@
 html,body {
 	height: 100%;
-	font-family: 'Roboto', sans-serif;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	font-smoothing: antialiased;
+	margin: 0;
+	padding: 0;
 }
 
 p {
@@ -74,9 +72,14 @@ text {
 	text-transform: uppercase;
 }
 
-#base {
+/*#base {
 	fill: rgb(0, 0, 0);
 	mask: url(http://www.beegsmith.com/#mask);
+}*/
+
+#base {
+	fill: rgb(0, 0, 0);
+	mask: url(#mask);
 }
 
 section.hero {
@@ -92,19 +95,53 @@ section.hero {
 	background-color: rgba(255, 255, 255, 0.5);
 	color: #000;
 	border-bottom: 0;
+	text-align: center;
+
 }
+
+.navbar-nav {
+	position: relative;
+	left: 50%;
+	margin-left: -274px;
+} 
 
 .nav a {
 	font-size: 18px;
 	color: #000;
-}
-.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
-	color: #000;
-	font-weight: 600;
+	display: inline-block;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #000;
+}
+
+.borderline {
+  position: relative;
+}
+
+.borderline:after,
+.borderline:before {
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: rgba(191, 173, 81 ,1);
+  content: "";
+  transition: 0.5s;
+}
+
+.borderline:after {
+  left: 0;
+  bottom: 10px;
+}
+
+.borderline:before {
+  right: 0;
+  top: 10px;
+}
+
+.borderline:hover:after, .borderline:hover:before {
+  width: 100%;
 }
 
 #about-container {
