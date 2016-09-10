@@ -1,146 +1,133 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset='utf-8'>
-  <title>Salt Lake City Front End Developer & UI/UX Designer</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="slick/slick.min.js"></script>
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/mystyle.css">
-  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>  
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
+	<meta charset='utf-8'>
+	<title>Salt Lake City Front End Developer & UI/UX Designer</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/>
 </head>
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-    </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-      <li><a class="borderline" href="#home">Back to Top</a></li>
-      <li><a class="borderline" href="#about-container">About Me</a></li>
-      <li><a class="borderline" href="#portfolio-container">Portfolio</a></li>
-      <li><a class="borderline" href="#resume-container">Resume</a></li>
-      <li><a class="borderline" href="#contact-container">Contact</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
-<div id="home">
-  <svg>
-   <defs>
-     <mask id="mask" x="0" y="0" width="100%" height="100%" >
-       <rect id="alpha" x="0" y="0" width="100%" height="100%"/>
-       <text id="name" x="50%" y="50%">Bryan Smith</text>
-       <text id="position" x="50%" y="63%">web developer</text>
-     </mask>
-    </defs>
-    <rect id="base" x="0" y="0" width="100%" height="100%"/>
-  </svg>
+	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li><a class="borderline" href="#home">Back to Top</a></li>
+					<li><a class="borderline" href="#about-container">About Me</a></li>
+					<li><a class="borderline" href="#portfolio-container">Portfolio</a></li>
+					<li><a class="borderline" href="#contact-container">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="home">
+		<svg>
+			<defs>
+				<mask id="mask" x="0" y="0" width="100%" height="100%" >
+					<rect id="alpha" x="0" y="0" width="100%" height="100%"/>
+					<text id="name" x="50%" y="50%">Bryan Smith</text>
+					<text id="position" x="50%" y="63%">web developer</text>
+				</mask>
+			</defs>
+			<rect id="base" x="0" y="0" width="100%" height="100%"/>
+		</svg>
+	</div>
+	<section class="hero"></section>
+	<div id="about-container">
+		<div class="about row">
+			<div class="col-sm-6 pull-right col-xs-12">
+				<h1 class="sideLine"><span>About Me</span></h1>
+				<p>Hello! My Name is Bryan George Smith, but my friends call me Beeg (Pronounced like Beej). I specialize in making people laugh and making my family as happy as I can. I enjoy being outdoors and anything on a board. I love to design and build websites ranging from small business and personal blogs to full-stack applications that require much detail. Contact me with any questions or if you would like more to know more about freelance work or job opportunities. Take a look around and make yourself at home.</p>
+			</div>
+			<div class="col-sm-6 pull-left col-xs-12">
+				<h1 class="sideLine"><span>Skills</span></h1>
+				<ul>
+					<li>HTML</li><li>CSS</li><li>SCSS</li><li>Gulp</li><li>JavaScript</li><li>jQuery</li><li>PHP</li><li>Mongo</li><li>Express</li><li>Angular1</li><li>Angular2</li><li>Node</li><li>Firebase</li><li>React</li><li>Demandware Development</li><li>Adobe Creative Suite</li><li>Sketch</li><li>Brand Development</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="portfolio-container">
+		<div class="portfolio">
+		<h1 class="sideLine"><span>Portfolio</span></h1>
+			<div class="row">
+				<div class="project-info col-sm-5 col-xs-12">
+					<h3>Ink + Ivy</h3>
+					<p>Worked as sole developer to create Ink + Ivy page for Overstock. Used HTML, CSS and jQuery. Worked with designers to slice Photoshop mock ups and create a stunning design and excellent user experience. Page quickly became one of the most popular pages on Overstock.com.</p>
+				</div>
+				<div class="project-img col-sm-7 col-xs-12">
+					<a class="item" href="http://www.overstock.com/ink-and-ivy" target="_blank">
+						<img src="images/ink_and_ivy.png" alt="ink-and-ivy">
+					</a> 
+				</div>   
+			</div>
+			<div class="row">
+				<div class="project-info col-sm-5 pull-right col-xs-12">
+					<h3>1-800 Contacts Infinite</h3>
+					<p>Worked in pairs to accomplish various tasks assigned to us. Used a variety of technologies including React, Demandware Platform, Gulp, SCSS and Typescript. Worked with various groups within the company to esnure the site was not only a great user experience, but also a highly functional site as well.</p>
+				</div>
+				<div class="project-img col-sm-7 pull-left col-xs-12">
+					<a class="item" href="http://www.1800contacts.com/infinite" target="_blank">
+						<img src="images/contacts_infinite.png" alt="contacts">
+					</a> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="project-info col-sm-5 col-xs-12">
+					<h3>Fashionphile</h3>
+					<p>Working as sole front end developer and designer, I have worked on several diferent key areas for Fashionphile. I created a CSS only multiple page details page for their eBay listings. I have designed, cleaned up and maintained several areas of the site that has resulted in a better user experience. Designed and developed weekly email campaign which resulted in Fashionphile's largest revenue month ever. Making use of several technologies including Angular2, PHP, MySQL, HTML and SCSS.</p>
+				</div>
+				<div class="project-img col-sm-7 col-xs-12">
+					<a class="item" href="http://www.fashionphile.com" target="_blank">
+						<img src="images/fashionphile.png" alt="fashionphile">
+					</a> 
+				</div>
+			</div>
+			<div class="row">
+				<div class="project-info col-sm-5 pull-right col-xs-12">
+					<h3>CodePen</h3>
+					<p>Check out my CodePen where I will regularly try out small components or just implement a design that I have been thinking up.</p>
+				</div>
+				<div class="project-img col-sm-7 pull-left col-xs-12">
+					<a class="item" href="http://codepen.io/beeg/pens/public/" target="_blank">
+						<img src="images/codepn.png" alt="codepen">
+					</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="contact-container">
+		<div class="contact">
+			<h1 class="sideLine"><span>Contact</span></h1>
+			<p class="center">bryan.gsmith33@gmail.com | (801)989-8594</p>
+		</br>
+		<div class="contact-icons">
+			<span>
+				<a class="fa fa-twitter" href="https://twitter.com/BGSIII" target="_blank"></a>
+				<a class="fa fa-linkedin" href="https://www.linkedin.com/pub/bryan-smith/8b/a26/424" target="_blank"></a>
+			</span>
+		</div>
+	</div>
 </div>
-<section class="hero"></section>
-<div id="about-container">
-    <div class="about row">
-      <div class="col-xs-3">
-        <h1>About Me</h1>
-      </div>
-      <div class="col-xs-9">
-        <p>Hello! My Name is Bryan George Smith, but my friends call me Beeg (Pronounced like Beej). I specialize in making people laugh and making my family as happy as I can. I enjoy being outdoors and anything on a board. I love to design and build websites ranging from small business and personal blogs to full-stack applications that require much detail. Contact me with any questions or if you would like more to know more about freelance work or job opportunities. Take a look around and make yourself at home.</p>
-      </div>
-    </div>
-  </div>
-  <div id="portfolio-container">
-    <div class="portfolio">
-      <h1>Portfolio</h1>
-      <div class="portfolio-carousel">
-          <a class="item" href="http://www.overstock.com/ink-and-ivy" target="_blank">
-            <img src="images/ink_and_ivy.png" alt="ink-and-ivy">
-          </a>
-          <a class="item" href="http://www.1800contacts.com/infinite" target="_blank">
-            <img src="images/contacts_infinite.png" alt="contacts">
-          </a>
-      </div>
-    </div>
-  </div>
-<div id="resume-container">
-    <div class="resume">
-      <h1>Resume</h1>
-      <p class="center">bryan.gsmith33@gmail.com | (801)989-8594</p>
-      </br>
-      <h2>Skills</h2>
-      <p>HTML5, CSS3, JavaScript, jQuery, PHP, MEAN stack (Mongo, Express, Angular and Node), Firebase, React, Demandware Development.</p>
-      </br>
-      <h2>Experience</h2>
-      <h3>Fashionphile</h3>
-      <h3>May 2016 – Present</h3>
-      <h3>Developer/UX-UI Designer</h3>
-      <p>Responsible for complete redesign of company website and eBay store. Using the Adobe Creative suite and Sketch to create mock ups.</p>
-      <h3>1-800 Contacts</h3>
-      <h3>September 2015 – May 2016</h3>
-      <h3>Software Engineer</h3>
-      <p>Developed Sites for third party clients using the Demandware platform. Also helped, with other members of our team, develop various parts of a full site rebuild using React and TypeScript. Helped with the upkeep of our classic site as the new one progressed.</p>
-      <h3>Overstock.com</h3>
-      <h3>July 2015 – September-2015</h3>
-      <h3>Front End Developer</h3>
-      <p>Make regular updates to company website using HTML and CSS. Using the Adobe suite to
-      streamline work. Developed the Ink &amp; Ivy site as the sole developer, which quickly became one of the most popular pages on the site.</p> 
-      <h3>1-800 Contacts</h3>
-      <h3>July 2012 – March 2015</h3>
-      <h3>Courier</h3>
-      <p>Picked up and delivered packages for company. 
-      Reconciled several company credit cards.
-      Ensured that company vehicle is in working order.</p>
-      </br>
-      <h2>Education</h2> 
-      <h3>DevMountain</h3>
-      <h3>March 2015 – June 2015</h3>
-      <p>Studied web development in a full-time immersive coding boot camp. 
-      Experience building website templates from scratch using JavaScript and several of it's frameworks.</p>
-      <h3>Salt Lake Community College</h3>
-      <h3>2010 - 2013</h3>
-      <p>Studied Communications; specifically Broadcast Journalism. Also studied general education and business management/finance.</p1> 
-    </div>
-    <div id="contact-container">
-    <div class="contact">
-      <h1>Contact</h1>
-      <p class="center">bryan.gsmith33@gmail.com | (801)989-8594</p>
-      </br>
-      <div class="contact-icons">
-        <span>
-          <a class="fa fa-twitter" href="https://twitter.com/BGSIII" target="_blank"></a>
-          <a class="fa fa-linkedin" href="https://www.linkedin.com/pub/bryan-smith/8b/a26/424" target="_blank"></a>
-        </span>
-      </div>
-    </div>
-  </div>
-<!--     <script type="text/javascript">
-    $(document).ready(function(){
-      $('.portfolio-carousel').slick({
-          dots: true,
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          infinite: true
-      });
-    });
-  </script> -->
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-82875680-1', 'auto');
-  ga('send', 'pageview');
+	ga('create', 'UA-82875680-1', 'auto');
+	ga('send', 'pageview');
 
 </script>
 <script type="text/javascript" src="js/main.js"></script>

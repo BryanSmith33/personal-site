@@ -2,28 +2,29 @@ html,body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: #FDFFFC;
+	color: #272727;
 }
 
 p {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 100;
 }
 
 h1 {
-	text-align: center;
 	font-size: 32px;
 	font-weight: 300;
-}
-
-h2 {
-	font-size: 28px;
-	font-weight: 300;
+	padding-bottom: 15px;
 }
 
 h3 {
 	font-size:24px;
 	font-weight: 300;
 	margin: 5px 0;
+}
+
+.row {
+	padding: 15px 0;
 }
 
 #home {
@@ -74,8 +75,8 @@ text {
 }
 
 /*#base {
-	fill: rgb(0, 0, 0);
-	mask: url(http://www.beegsmith.com/#mask);
+fill: rgb(0, 0, 0);
+mask: url(http://www.beegsmith.com/#mask);
 }*/
 
 #base {
@@ -113,91 +114,75 @@ section.hero {
 }
 
 .borderline {
-  position: relative;
+	position: relative;
 }
 
 .borderline:after,
 .borderline:before {
-  display: block;
-  position: absolute;
-  width: 0;
-  height: 3px;
-  background-color: rgba(191, 173, 81 ,1);
-  content: "";
-  transition: 0.5s;
+	display: block;
+	position: absolute;
+	width: 0;
+	height: 3px;
+	background-color: rgba(191, 173, 81 ,1);
+	content: "";
+	transition: 0.5s;
 }
 
 .borderline:after {
-  left: 0;
-  bottom: 10px;
+	left: 0;
+	bottom: 10px;
 }
 
 .borderline:before {
-  right: 0;
-  top: 10px;
+	right: 0;
+	top: 10px;
 }
 
 .borderline:hover:after, .borderline:hover:before {
-  width: 100%;
+	width: 100%;
 }
 
 #about-container {
 	width: 100%;
-	background-color: #1f1f1f;
 	overflow: hidden;
 }
 
 .about {
-	width: 90%;
+	width: 95%;
 	height: 100%;
-	color: #fff;
-	margin: 25px auto;
+	margin:  auto;
+}
+
+.about ul {
+	padding: 0;
+}
+
+.about li {
+	display: inline-block;
+	margin: 5px;
+	padding: 5px 8px;
+	border: 1px solid #272727;
 }
 
 #portfolio-container {
 	width: 100%;
-	background-color: #3d3d3d;
 	padding: 1px 0px 25px;
 }
 
 .portfolio {
-	width: 85%;
+	width: 90%;
 	height: 100%;
-	color: #c2c2c2;
 	margin: 0 auto;
 }
 
 .item > img {
 	margin: 0 auto;
-    height: 100%;
-    width: 100%;
-}
-
-.item > video {
-	margin: 0 auto;
-}
-
-#resume-container {
-	width: 100%;
-	background-color: #c2c2c2;
-	padding-top: 1px;
-}
-
-.resume {
-	width: 70%;
 	height: 100%;
-	margin: 0 auto 25px;
-	color: #3d3d3d;
+	width: 100%;
 }
-
- p.center {
-    text-align: center;
-    margin: 0;
- }
 
 #contact-container {
 	width: 100%;
-	background-color: #e0e0e0;
 	overflow:hidden;
 	word-wrap: normal;
 }
@@ -205,38 +190,58 @@ section.hero {
 .contact {
 	width: 70%;
 	height: 100%;
-	color: #000;
 	margin: 0 auto;
-}
-
-.contact-icons {
 	text-align: center;
 }
 
 .fa {
-    color: rgba(255, 255, 255, 0.8);
-    text-align:center;
-    margin: 10px 18px 25px;
-    font-size: 45px !important;
+	color: #272727;
+	text-align:center;
+	margin: 10px 18px 25px;
+	font-size: 45px !important;
 }
 
 .fa:hover {
 	text-decoration: none;
-	color: rgba(255, 255, 255, 0.8);
+	color: rgba(191, 173, 81 ,1);
+}
+
+.sideLine {
+	line-height: .1;
+	text-align: center;
+}
+.sideLine span {
+	display: inline-block;
+	position: relative;  
+}
+.sideLine span:before,
+.sideLine span:after {
+	content: "";
+	position: absolute;
+	height: 5px;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	top: 0;
+	width: 40px;
+}
+.sideLine span:before {
+	right: 100%;
+	margin-right: 5px;
+}
+.sideLine span:after {
+	left: 100%;
+	margin-left: 5px;
 }
 
 @media screen and (max-width: 600px) {
-	button.slick-next.slick-arrow, button.slick-prev.slick-arrow {
-		display: none !important;
-	}
 
 	#name {
-	font-size: 4em;
+		font-size: 3.5em;
 	}
 
 	#position {
-	letter-spacing: 8px;
-	font-size: 1.5em;
-	font-weight: bold;
-}	
+		letter-spacing: 8px;
+		font-size: 1.25em;
+		font-weight: bold;
+	}	
 }
