@@ -84,7 +84,7 @@ text {
 }
 
 section.hero {
-	background: url('images/patriarchHike.jpg') no-repeat top center;
+	background: url(http://www.beegsmith.com/images/patriarchHike.jpg) no-repeat top center;
 	background-size: cover;
 	position: relative;
 	width: 100%;
@@ -95,15 +95,17 @@ section.hero {
 	min-height: 50px;
 	background-color: #272727;
 	border-bottom: 0;
-	text-align: center;
 }
 
 .navbar-nav {
-	position: relative;
-	left: 50%;
-	margin-left: -274px;
-	text-transform: uppercase;
+	width: 100%;
+	text-align: center;
 } 
+
+.navbar-nav li {
+	float: none;
+	display: inline-block;
+}
 
 .nav a {
 	font-size: 18px;
