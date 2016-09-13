@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Above Demo';
-  src: url('fonts/above.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/above.woff') format('woff');
 }
 
 @font-face {
   font-family: 'bromello';
-  src: url('fonts/bromello.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/bromello.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Capsule X Pro Medium';
-  src: url('fonts/capsule.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/capsule.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Cursus';
-  src: url('fonts/cursus.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/cursus.woff') format('woff');
 }
 
 @font-face {
   font-family: 'GoodMorningAfternoon';
-  src: url('fonts/goodmorning.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/goodmorning.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Hey Now';
-  src: url('fonts/basterds.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/basterds.woff') format('woff');
 }
 
 @font-face {
   font-family: 'Permanent Marker';
-  src: url('fonts/permanentmarker.woff') format('woff');
+  src: url('http://www.beegsmith.com/fonts/permanentmarker.woff') format('woff');
 }
 
 html,body {
