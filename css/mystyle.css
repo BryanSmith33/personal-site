@@ -1,3 +1,40 @@
+@font-face {
+  font-family: 'Above Demo';
+  src:  url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'bromello';
+  src:  url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Capsule X Pro Medium';
+  src: url('fonts/capsule.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Cursus';
+  src: url('fonts/cursus.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GoodMorningAfternoon';
+  src: url('fonts/goodmorning.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Hey Now';
+  src: url('fonts/basterds.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Permanent Marker';
+  src: url('fonts/permanentmarker.woff') format('woff');
+}
+
 html,body {
 	height: 100%;
 	margin: 0;
