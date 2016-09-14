@@ -53,7 +53,7 @@ h1 {
 }
 
 h3 {
-	font-size:24px;
+	font-size: 24px;
 	font-weight: 300;
 	margin: 5px 0;
 }
@@ -109,15 +109,17 @@ text {
 	font-family: serif;
 }
 
-/*#base {
+#base {
 fill: rgb(0, 0, 0);
 mask: url(http://www.beegsmith.com/#mask);
-}*/
+}
 
+
+/*uncomment for testing locally
 #base {
 	fill: rgb(0, 0, 0);
 	mask: url(#mask);
-}
+}*/
 
 section.hero {
 	background: url(http://www.beegsmith.com/images/patriarchHike.jpg) no-repeat top center;
@@ -285,7 +287,7 @@ section.hero {
 @media screen and (max-width: 600px) {
 
 	#name {
-		font-size: 3.5em;
+		font-size: 3.3em;
 	}
 
 	#position {
