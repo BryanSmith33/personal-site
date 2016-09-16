@@ -146,10 +146,10 @@ p{
 		}
 
 		/*uncomment for testing locally*/
-/*		#base {
+		#base {
 			fill: $dark-black;
 			mask: url(#mask);
-		}*/
+		}
 	}
 }
 
@@ -261,11 +261,11 @@ section.hero {
 
 @media screen and (max-width: 600px) {
 
-	#name {
+	#home svg #name {
 		font-size: 3.3em;
 	}
 
-	#position {
+	#home svg #position {
 		letter-spacing: 8px;
 		font-size: 1.25em;
 		font-weight: bold;

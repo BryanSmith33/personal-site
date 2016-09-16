@@ -42,7 +42,7 @@ p { font-size: 18px; font-weight: 100; }
 
 #home { position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; }
 
-#home svg { width: 100%; height: inherit; /*uncomment for testing locally*/ /*		#base { fill: $dark-black; mask: url(#mask); }*/ }
+#home svg { width: 100%; height: inherit; /*uncomment for testing locally*/ }
 
 #home svg #alpha { fill: rgba(255, 255, 255, 0.8); -webkit-animation: fadeIn ease-in 1; -moz-animation: fadeIn ease-in 1; animation: fadeIn ease-in 1; -webkit-animation-fill-mode: forwards; -moz-animation-fill-mode: forwards; animation-fill-mode: forwards; -webkit-animation-duration: 2s; -moz-animation-duration: 2s; animation-duration: 2s; }
 
@@ -53,6 +53,8 @@ p { font-size: 18px; font-weight: 100; }
 #home svg #position { letter-spacing: 10px; font-size: 1.8em; text-transform: uppercase; font-family: serif; }
 
 #home svg #base { fill: #000000; mask: url(http://www.beegsmith.com/#mask); }
+
+#home svg #base { fill: #000000; mask: url(#mask); }
 
 @-webkit-keyframes fadeIn { from { opacity: 0; }
   to { opacity: 1; } }
@@ -99,5 +101,5 @@ section.hero { background: url(http://www.beegsmith.com/app/images/patriarchHike
 
 .white span:before, .white span:after { border-bottom: 1px solid #FDFFFC; border-top: 1px solid #FDFFFC; }
 
-@media screen and (max-width: 600px) { #name { font-size: 3.3em; }
-  #position { letter-spacing: 8px; font-size: 1.25em; font-weight: bold; } }
+@media screen and (max-width: 600px) { #home svg #name { font-size: 3.3em; }
+  #home svg #position { letter-spacing: 8px; font-size: 1.25em; font-weight: bold; } }
