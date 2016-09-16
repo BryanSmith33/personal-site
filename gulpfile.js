@@ -1,20 +1,28 @@
 var gulp   = require('gulp'),
-    jshint = require('gulp-jshint'),
-    sass   = require('gulp-sass');
+    sass   = require('gulp-sass'),
+    browserSync = require('browser-sync').create();
 
-
-/* jshint task would be here */
-
-gulp.task('build-css', function() {
-  return gulp.src('source/scss/**/*.scss')
-    .pipe(sass())
-    .pipe(gulp.dest('public/assets/stylesheets'));
+gulp.task('sass', function(){
+  return gulp.src('app/scss/**/*.scss')
+    .pipe(sass({
+    	outputStyle: 'compressed'
+    }))
+    .pipe(gulp.dest('app/css'))
+    .pipe(browserSync.reload({
+    	stream: true
+    }))
 });
 
+gulp.task('browserSync', function() {
+  browserSync.init({
+    server: {
+      baseDir: 'app'
+    },
+  })
+})
 
-/* updated watch task to include sass */
+gulp.task('watch', ['browserSync', 'sass'], function(){
+	gulp.watch('app/scss/**/*.scss', ['sass']);
+	gulp.watch('app/*.html', browserSync.reload);
+})
 
-gulp.task('watch', function() {
-  gulp.watch('js/*.js', ['jshint']);
-  gulp.watch('source/scss/**/*.scss', ['build-css']);
-});

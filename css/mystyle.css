@@ -1,298 +1,259 @@
 @font-face {
   font-family: 'Above Demo';
-  src: url('http://www.beegsmith.com/fonts/above.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/above.woff") format("woff"); }
 
 @font-face {
   font-family: 'bromello';
-  src: url('http://www.beegsmith.com/fonts/bromello.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/bromello.woff") format("woff"); }
 
 @font-face {
   font-family: 'Capsule X Pro Medium';
-  src: url('http://www.beegsmith.com/fonts/capsule.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/capsule.woff") format("woff"); }
 
 @font-face {
   font-family: 'Cursus';
-  src: url('http://www.beegsmith.com/fonts/cursus.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/cursus.woff") format("woff"); }
 
 @font-face {
   font-family: 'GoodMorningAfternoon';
-  src: url('http://www.beegsmith.com/fonts/goodmorning.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/goodmorning.woff") format("woff"); }
 
 @font-face {
   font-family: 'Hey Now';
-  src: url('http://www.beegsmith.com/fonts/basterds.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/basterds.woff") format("woff"); }
 
 @font-face {
   font-family: 'Permanent Marker';
-  src: url('http://www.beegsmith.com/fonts/permanentmarker.woff') format('woff');
-}
+  src: url("http://www.beegsmith.com/fonts/permanentmarker.woff") format("woff"); }
 
-html,body {
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	background-color: #FDFFFC;
-	color: #272727;
-}
-
-p {
-	font-size: 18px;
-	font-weight: 100;
-}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #FDFFFC;
+  color: #272727; }
 
 h1 {
-	font-size: 32px;
-	font-weight: 300;
-	padding-bottom: 15px;
-}
+  font-size: 32px;
+  font-weight: 300;
+  padding-bottom: 15px; }
 
 h3 {
-	font-size: 24px;
-	font-weight: 300;
-	margin: 5px 0;
-}
+  font-size: 24px;
+  font-weight: 300;
+  margin: 5px 0; }
+
+p {
+  font-size: 18px;
+  font-weight: 100; }
 
 .row {
-	padding: 15px 0;
-}
+  padding: 15px 0; }
 
 #home {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 10;
-}
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10; }
 
 svg {
-	width: 100%;
-	height: inherit;
-}
+  width: 100%;
+  height: inherit; }
 
 text {
-	text-anchor: middle;
-}
+  text-anchor: middle; }
 
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 
 #alpha {
-	fill: rgba(255, 255, 255, 0.80);
-	-webkit-animation:fadeIn ease-in 1; 
-	-moz-animation:fadeIn ease-in 1;
-	animation:fadeIn ease-in 1;
-	-webkit-animation-fill-mode:forwards;
-	-moz-animation-fill-mode:forwards;
-	animation-fill-mode:forwards;
-	-webkit-animation-duration:2s;
-	-moz-animation-duration:2s;
-	animation-duration:2s;
-}
+  fill: rgba(255, 255, 255, 0.8);
+  -webkit-animation: fadeIn ease-in 1;
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s; }
 
 #name {
-	font-size: 8em;
-	font-weight: 200;
-}
+  font-size: 8em;
+  font-weight: 200; }
 
 #position {
-	letter-spacing: 10px;
-	font-size: 1.8em;
-	text-transform: uppercase;
-	font-family: serif;
-}
+  letter-spacing: 10px;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-family: serif; }
 
 #base {
-fill: rgb(0, 0, 0);
-mask: url(http://www.beegsmith.com/#mask);
-}
+  fill: #FDFFFC;
+  mask: url(http://www.beegsmith.com/#mask); }
 
-
-/*uncomment for testing locally
+/*uncomment for testing locally*/
 #base {
-	fill: rgb(0, 0, 0);
-	mask: url(#mask);
-}*/
+  fill: #272727;
+  mask: url(#mask); }
 
 section.hero {
-	background: url(http://www.beegsmith.com/images/patriarchHike.jpg) no-repeat top center;
-	background-size: cover;
-	position: relative;
-	width: 100%;
-	min-height: 100%;
-}
+  background: url(http://www.beegsmith.com/images/patriarchHike.jpg) no-repeat top center;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  min-height: 100%; }
 
 .navbar {
-	min-height: 50px;
-	background-color: #272727;
-	border-bottom: 0;
-}
+  min-height: 50px;
+  background-color: #272727;
+  border-bottom: 0; }
 
 .navbar-nav {
-	width: 100%;
-	text-align: center;
-} 
+  width: 100%;
+  text-align: center; }
 
 .navbar-nav li {
-	float: none;
-	display: inline-block;
-}
+  float: none;
+  display: inline-block; }
 
 .nav a {
-	font-size: 18px;
-	display: inline-block;
-}
+  font-size: 18px;
+  display: inline-block; }
 
 .borderline {
-	position: relative;
-}
+  position: relative; }
 
 .borderline:after,
 .borderline:before {
-	display: block;
-	position: absolute;
-	width: 0;
-	height: 3px;
-	background-color: rgba(191, 173, 81 ,1);
-	content: "";
-	transition: 0.5s;
-}
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 3px;
+  background-color: #DCC48E;
+  content: "";
+  transition: 0.5s; }
 
 .borderline:after {
-	left: 0;
-	bottom: 10px;
-}
+  left: 0;
+  bottom: 10px; }
 
 .borderline:before {
-	right: 0;
-	top: 10px;
-}
+  right: 0;
+  top: 10px; }
 
 .borderline:hover:after, .borderline:hover:before {
-	width: 100%;
-}
+  width: 100%; }
 
 #about-container {
-	width: 100%;
-	overflow: hidden;
-}
+  width: 100%;
+  overflow: hidden; }
 
 .about {
-	width: 95%;
-	height: 100%;
-	margin:  auto;
-}
+  width: 95%;
+  height: 100%;
+  margin: auto; }
 
 .about ul {
-	padding: 0;
-}
+  padding: 0; }
 
 .about li {
-	display: inline-block;
-	margin: 5px;
-	padding: 5px 8px;
-	border: 1px solid #272727;
-}
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 8px;
+  border: 1px solid #272727; }
 
 #portfolio-container {
-	color: #FDFFFC;
-	background: #272727;
-	width: 100%;
-	padding: 1px 0px 25px;
-}
+  color: #FDFFFC;
+  background: #272727;
+  width: 100%;
+  padding: 1px 0px 25px; }
 
 .portfolio {
-	width: 90%;
-	height: 100%;
-	margin: 0 auto;
-	padding: 15px 0;
-}
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 15px 0; }
 
 .item > img {
-	margin: 0 auto;
-	height: 100%;
-	width: 100%;
-}
+  margin: 0 auto;
+  height: 100%;
+  width: 100%; }
 
 #contact-container {
-	width: 100%;
-	overflow:hidden;
-	word-wrap: normal;
-}
+  width: 100%;
+  overflow: hidden;
+  word-wrap: normal; }
 
 .contact {
-	width: 70%;
-	height: 100%;
-	margin: 0 auto;
-	text-align: center;
-	padding: 15px 0;
-}
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 15px 0; }
 
 .fa {
-	color: #272727;
-	text-align:center;
-	margin: 10px 18px 25px;
-	font-size: 45px !important;
-}
+  color: #272727;
+  text-align: center;
+  margin: 10px 18px 25px;
+  font-size: 45px !important; }
 
 .fa:hover {
-	text-decoration: none;
-	color: rgba(191, 173, 81 ,1);
-}
+  text-decoration: none;
+  color: #DCC48E; }
 
 .sideLine {
-	line-height: .1;
-	text-align: center;
-}
+  line-height: .1;
+  text-align: center; }
 
 .sideLine span {
-	display: inline-block;
-	position: relative;  
-}
+  display: inline-block;
+  position: relative; }
 
 .sideLine span:before,
 .sideLine span:after {
-	content: "";
-	position: absolute;
-	height: 5px;
-	border-bottom: 1px solid #272727;
-	border-top: 1px solid #272727;
-	top: 0;
-	width: 20px;
-}
+  content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 1px solid #272727;
+  border-top: 1px solid #272727;
+  top: 0;
+  width: 20px; }
 
 .white span:before,
 .white span:after {
-	border-bottom: 1px solid #FDFFFC;
-	border-top: 1px solid #FDFFFC;
-}
+  border-bottom: 1px solid #FDFFFC;
+  border-top: 1px solid #FDFFFC; }
 
 .sideLine span:before {
-	right: 100%;
-	margin-right: 5px;
-}
+  right: 100%;
+  margin-right: 5px; }
 
 .sideLine span:after {
-	left: 100%;
-	margin-left: 5px;
-}
+  left: 100%;
+  margin-left: 5px; }
 
 @media screen and (max-width: 600px) {
-
-	#name {
-		font-size: 3.3em;
-	}
-
-	#position {
-		letter-spacing: 8px;
-		font-size: 1.25em;
-		font-weight: bold;
-	}	
-}
+  #name {
+    font-size: 3.3em; }
+  #position {
+    letter-spacing: 8px;
+    font-size: 1.25em;
+    font-weight: bold; } }
