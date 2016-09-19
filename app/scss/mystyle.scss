@@ -215,7 +215,7 @@ section.hero {
 		.fa {
 			color: $black;
 			text-align:center;
-			margin: 10px 18px 25px;
+			margin: 18px;
 			font-size: 45px !important;
 			&:hover {
 				text-decoration: none;
@@ -256,6 +256,10 @@ section.hero {
 .white span:after {
 	border-bottom: 1px solid $white;
 	border-top: 1px solid $white;
+}
+
+.homeTown {
+	max-width: 95px;
 }
 
 
