@@ -2,3 +2,9 @@ var fontArray = ['Above Demo', 'bromello', 'Capsule X Pro Medium', 'Cursus', 'Go
 var randomFont = fontArray[Math.floor(Math.random() * fontArray.length)];
 
 $("#name").css("font-family", randomFont);
+
+$(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
