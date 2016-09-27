@@ -7,16 +7,11 @@ $(document).on('click','.navbar-collapse.in',function(e) {
     if( $(e.target).is('a') ) {
         $(this).collapse('hide');
     }
-});
-
-$(document).ready(function() {
-
 	$('a').on('click touchend', function(e) {
 		var el = $(this);
 		var link = el.attr('href');
 		window.location = link;
 	});
-
 });
 
 $("#sendMessage").on("click", function() {
