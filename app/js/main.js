@@ -8,3 +8,16 @@ $(document).on('click','.navbar-collapse.in',function(e) {
         $(this).collapse('hide');
     }
 });
+
+$("#sendMessage").on("click", function() {
+  message = $("#contactform").serialize();
+$.ajax({
+    url: "https://formspree.io/bryan.gsmith33@gmail.com", 
+    method: "POST",
+    data: message,
+    dataType: "json"
+});
+  $('#emailModal').modal('toggle');
+  $("input, textarea").val("");
+  return false;
+});
