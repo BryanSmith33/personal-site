@@ -259,6 +259,15 @@ section.hero {
 	border-top: 1px solid $white;
 }
 
+button.center {
+    margin: 15px 0;
+    font-weight: 100;
+    text-transform: uppercase;
+    border-radius: 2px;
+    color: $gold;
+    background: $black;
+}
+
 .homeTown {
 	max-width: 95px;
 }

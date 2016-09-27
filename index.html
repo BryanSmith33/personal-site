@@ -24,10 +24,10 @@
 			</div>
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a class="borderline" href="#home">Back to Top</a></li>
-					<li><a class="borderline" href="#about-container">About Me</a></li>
-					<li><a class="borderline" href="#portfolio-container">Portfolio</a></li>
-					<li><a class="borderline" href="#contact-container">Contact</a></li>
+					<li><a class="borderline" href="#home" data-toggle="collapse" data-target=".navbar-collapse">Back to Top</a></li>
+					<li><a class="borderline" href="#about-container" data-toggle="collapse" data-target=".navbar-collapse">About Me</a></li>
+					<li><a class="borderline" href="#portfolio-container" data-toggle="collapse" data-target=".navbar-collapse">Portfolio</a></li>
+					<li><a class="borderline" href="#contact-container" data-toggle="collapse" data-target=".navbar-collapse">Contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -111,7 +111,7 @@
 	<div id="contact-container">
 		<div class="contact">
 			<h1 class="sideLine"><span>Get In Touch</span></h1>
-			<p data-toggle="modal" data-target="#emailModal" class="center">bryan.gsmith33@gmail.com</p>
+			<button type="button" class="btn btn-inverse center" data-toggle="modal" data-target="#emailModal">Email Me</button>
 			<p class="center">(801)989-8594</p>
 			<div class="contact-icons">
 				<span>
@@ -143,29 +143,6 @@
 	    </div>
 	  </div>
 	</div>
-	<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
 	<script type="text/javascript" src="app/js/main.js"></script>
 </body>
 </html>
